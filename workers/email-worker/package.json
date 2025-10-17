@@ -1,0 +1,16 @@
+{
+  "name": "attain-email-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for sending waitlist emails via Resend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev --config wrangler.toml",
+    "deploy": "wrangler deploy --config wrangler.toml"
+  },
+  "dependencies": {
+    "resend": "^2.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

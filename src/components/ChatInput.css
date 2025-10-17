@@ -1,0 +1,32 @@
+.chat-input {
+  width: 100%;
+  max-width: 48rem;
+  margin: 2rem auto 0;
+}
+
+.chat-input__box {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  transition: border-color 200ms ease;
+}
+
+.chat-input__box:hover {
+  border-color: #404040;
+}
+
+.chat-input__placeholder {
+  color: var(--color-text-dim);
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .chat-input {
+    max-width: 100%;
+  }
+
+  .chat-input__box {
+    padding: 0.875rem 1rem;
+  }
+}
