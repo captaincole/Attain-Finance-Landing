@@ -47,7 +47,7 @@ export default {
 
       // Send email to yourself
       const emailConfig = {
-        from: 'waitlist@attainfinance.io',
+        from: 'waitlist@attainfinance.io',  // Use verified domain: Attain Waitlist <waitlist@attainfinance.io>
         to: 'andrew.thielcole@gmail.com',
         subject: 'New Attain Waitlist Signup',
         html: `

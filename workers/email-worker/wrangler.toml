@@ -2,7 +2,19 @@ name = "attain-email-worker"
 main = "index.js"
 compatibility_date = "2024-01-01"
 
-[env.production]
-route = "attainfinance.io/api/waitlist"
-
 # For development, the worker will run on localhost:8787
+
+# Production routes - uncomment and configure when ready to deploy
+# [[routes]]
+# pattern = "attainfinance.io/api/waitlist"
+# zone_name = "attainfinance.io"
+
+[observability]
+enabled = false
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
