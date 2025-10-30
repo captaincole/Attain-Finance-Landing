@@ -8,7 +8,7 @@ export default function Hero({ onJoin }: HeroProps) {
       <div className="hero-inner">
         <div className="hero-copy">
           <span className="hero-kicker">Beta</span>
-          <h1 className="hero-title">All of your finances, now fluent in chat</h1>
+          <h1 className="hero-title">Chat, now fluent in all you finances</h1>
           <p className="hero-description">
             Connect Attain to ChatGPT, Claude, or Gemini and ask natural questions about your balances,
             budgets, and investments—no new dashboards or context switching required.
