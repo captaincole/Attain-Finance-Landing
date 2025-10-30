@@ -19,7 +19,7 @@ function App() {
           </div>
           <nav className="header-nav">
             <a href="#installation">Install Now</a>
-            <a href="/faq">FAQ</a>
+            <a href="/faq.html">FAQ</a>
           </nav>
         </div>
       </header>
@@ -39,7 +39,7 @@ function App() {
         <div className="footer-content">
           <div className="footer-links">
             <a href="#how-it-works">How It Works</a>
-            <a href="/faq">FAQ</a>
+            <a href="/faq.html">FAQ</a>
           </div>
           <a href="https://attain.software" target="_blank" rel="noopener noreferrer">
             Attain Software Inc

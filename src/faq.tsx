@@ -18,7 +18,7 @@ if (rootElement) {
             <nav className="header-nav">
               <a href="/">Home</a>
               <a href="#top">FAQ</a>
-              <a href="/#installation">Installation Instructions</a>
+              <a href="/#installation">Install Now</a>
             </nav>
           </div>
         </header>
@@ -32,7 +32,7 @@ if (rootElement) {
             <div className="footer-links">
               <a href="/">Home</a>
               <a href="/#how-it-works">How It Works</a>
-              <a href="/#features">Features</a>
+              <a href="/#installation">Install Now</a>
             </div>
             <a href="https://attain.software" target="_blank" rel="noopener noreferrer">
               Attain Software Inc
