@@ -8,6 +8,8 @@ const examples = [
       'Highlight budget progress and upcoming bills automatically',
     ],
     reverse: false,
+    image: '/chatgpt_current_financial.png',
+    imageAlt: 'ChatGPT conversation summarizing current financial situation',
   },
   {
     title: 'Budgeting With Visuals',
@@ -18,6 +20,8 @@ const examples = [
       'Automate alerts or budget adjustments directly in chat',
     ],
     reverse: true,
+    image: '/chatgpt_spending_barchart.png',
+    imageAlt: 'ChatGPT displaying spending by category bar chart',
   },
   {
     title: 'Investment Pulse Check',
@@ -28,6 +32,8 @@ const examples = [
       'Track net worth growth alongside investment health',
     ],
     reverse: false,
+    image: '/chatgpt_investments.png',
+    imageAlt: 'ChatGPT showing investment portfolio analysis',
   },
 ] as const
 
@@ -60,13 +66,12 @@ export default function Examples() {
             </div>
             <div className="example-visual">
               <div className="example-screenshot">
-                <span>Screenshot Placeholder</span>
-                <span className="example-screenshot-hint">Drop in the chat capture for this flow</span>
+                <img src={example.image} alt={example.imageAlt} />
               </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  )
+         </div>
+       ))}
+     </div>
+   </section>
+ )
 }

@@ -18,7 +18,7 @@ function App() {
             <span>attain</span>
           </div>
           <nav className="header-nav">
-            <a href="#installation">Installation Instructions</a>
+            <a href="#installation">Install Now</a>
             <a href="/faq">FAQ</a>
           </nav>
         </div>
