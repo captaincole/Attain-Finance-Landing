@@ -7,7 +7,7 @@ export default function Hero({ onJoin }: HeroProps) {
     <section className="hero-section">
       <div className="hero-inner">
         <div className="hero-copy">
-          <span className="hero-kicker">Beta access</span>
+          <span className="hero-kicker">Beta</span>
           <h1 className="hero-title">All of your finances, now fluent in chat</h1>
           <p className="hero-description">
             Connect Attain to ChatGPT, Claude, or Gemini and ask natural questions about your balances,
@@ -22,9 +22,8 @@ export default function Hero({ onJoin }: HeroProps) {
           </div>
 
           <div className="hero-footnote">
-            <span>No waitlist fees</span>
             <span>Secure MCP authorization</span>
-            <span>Built for AI-native operators</span>
+            <span>Built AI-Native</span>
           </div>
         </div>
 
@@ -38,14 +37,16 @@ export default function Hero({ onJoin }: HeroProps) {
             <div className="hero-card-body">
               <div className="hero-card-message">
                 <span className="hero-card-label">You</span>
-                <p>What&apos;s my cash runway if I keep spending like this?</p>
+                <p>Whats my current financial situation?</p>
               </div>
               <div className="hero-card-message hero-card-message--assistant">
                 <span className="hero-card-label">Attain</span>
                 <ul>
-                  <li><strong>Runway:</strong> 6.5 months at current burn</li>
-                  <li><strong>Liquid cash:</strong> $86,420 across checking + HYSA</li>
-                  <li><strong>Next action:</strong> Dining is 18% over trend—trim $300 to stay on plan</li>
+                  <li><strong>Total Net Worth:</strong> $182k</li>
+                  <li><strong>Liquid cash:</strong> $32,420 across checking + HYSA</li>
+                  <li><strong>Debt</strong> $46,200 between Student Loans and Car Payments</li>
+                  <li><strong>Investments:</strong> Portfolio is overweight in tech, consider diversifying</li>
+                  <li><strong>Summary:</strong> You have a strong financial situation, and with a refinance on your loan we could improve you debt payoff rate by 15% / month</li>
                 </ul>
               </div>
             </div>

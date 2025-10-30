@@ -3,7 +3,7 @@ const steps = [
     index: 'Step 01',
     title: 'Connect your AI assistant',
     description:
-      'Kick off inside ChatGPT, Claude, or Gemini—Attain plugs into the assistant you already rely on through secure MCP handshakes.',
+      'Integrate inside of ChatGPT, Claude, or Gemini -- Attain plugs into the assistant you already rely on through the a secure MCP link.',
     bullets: [
       'No new apps, logins, or dashboards to learn',
       'Authorize directly from the chat with a single command',
@@ -11,8 +11,8 @@ const steps = [
     ],
     reverse: false,
     card: {
-      headline: 'Prompt ready',
-      body: '“Connect Attain to my chat”',
+      headline: 'Connection Ready',
+      body: '“Show me my financial accounts”',
       footer: 'ChatGPT · Claude · Gemini',
     },
   },
@@ -20,24 +20,24 @@ const steps = [
     index: 'Step 02',
     title: 'Link your financial accounts',
     description:
-      'Attain brokers bank-grade connections behind the scenes. Think Plaid-style linking, triggered directly from the chat.',
+      'Attain brokers bank-grade connections behind the scenes, triggered directly from the chat.',
     bullets: [
-      'Secure OAuth flows with your provider—Attain never sees credentials',
+      'Secure OAuth 2.1 flows with your provider—Attain never sees credentials',
       'Sync checking, cards, savings, investments, and more',
       'Data refreshes automatically so answers stay current',
     ],
     reverse: true,
     card: {
       headline: 'Authorization window',
-      body: 'Encrypted redirect · 45 seconds average completion time',
-      footer: 'Bank-level encryption · SOC2 in progress',
+      body: '"Attain has generated this secure link for you to connect your account"',
+      footer: 'Bank-level encryption',
     },
   },
   {
     index: 'Step 03',
     title: 'Ask anything—get decisions, not dashboards',
     description:
-      'Balance a purchase, review runway, or plan a payoff—Attain surfaces the exact numbers, trends, and context directly in the conversation.',
+      'Review purchases and spending or plan a payoff—Attain surfaces the exact numbers, trends, and context directly in the conversation.',
     bullets: [
       'Real-time balances, budgets, and portfolio insights',
       'Automated charts, alerts, and recommendations on demand',
@@ -46,8 +46,8 @@ const steps = [
     reverse: false,
     card: {
       headline: 'Insight snapshot',
-      body: 'Runway · 6.5 months\nNet worth · $482,900\nAlert · Dining up 18%',
-      footer: 'Export to CSV · Notify in chat · Share with team',
+      body: 'Spending · $8k / Month \n Net worth · $482,900\nAlert · Dining up 18%',
+      footer: 'Export to CSV · Notify in chat',
     },
   },
 ] as const
